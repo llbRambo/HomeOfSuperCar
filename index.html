@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>超跑之家HOSC-跑车爱好者的聚集地</title>
+</head>
+<body id="index">
+<div id="header">
+    <div id="nav" class="page-container">
+        <!--左上角的超跑之家的logo，点击回到主页-->
+        <div id="logo" class="logo">
+            <a class="" href="" target="_self">超跑之家</a>
+        </div>
+        <!--与logo并排的一些按钮与搜索栏-->
+        <button class="navbar-toggle visible-xs-block js-show-menu" type="button">
+            <i class="icon-menu"></i>
+        </button>
+        <ul class="nav-item">  <!--导航栏选项-->
+            <li class="">   <!--登录和注册-->
+                <a target="_self"  href="">登录</a>
+                <a target="_self"  href="">注册</a>
+            </li>
+            <li id="nav-item-index">
+                <a target="_self"  href="">首页</a>
+            </li>
+            <li>
+                <a target="_self"  href="">选项一</a>
+            </li>
+            <li>
+                <a target="_self"  href="">选项二</a>
+            </li>
+            <li>
+                <a target="_self"  href="">选项三</a>
+            </li>
+            <li>
+                <a target="_self"  href="">选项四</a>
+            </li>
+        </ul>
+        <div id="login-area">
+            <ul class="header-unlogin">
+                <li class="header-app">  <!--扫描二维码下载app-->
+                    <a href="">
+                        <span class="icon-appdownload"></span>
+                    </a>
+                    <div class="QR-appdownload">
+                        <p id="app-text">超跑之家app下载</p>
+                        <p id="app-type">Android/iPhone/iPad</p>
+                        <img src="" />
+                    </div>
+                </li>
+                <li class="header-signin">
+                    <a id="js-signin-btn" href="#">登录</a>
+                </li>
+                <li class="header-signup">
+                    <a id="js-signup-btn" href="#">注册</a>
+                </li>
+            </ul>
+
+        </div>
+        <!--搜索栏-->
+        <div class="search-warp clearfix" style="min-width:32px;height:60px;">
+            <div class="search-area" data-search="top-banner">
+                <input class="search-input" type="text" autocomplete="off" placeholder="请输入想搜索的内容..." data-suggest-trigger="suggest-trigger" />
+                <input class="btn-search" type="hidden" data-search-btn="search-btn" />
+                <ul class="search-area-result" data-suggest-result="suggest-result"></ul>
+            </div>
+            <div class="showhide-search" data-show="no">
+                <i class="icon-search"></i>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
